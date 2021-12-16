@@ -1,0 +1,466 @@
+        
+        
+        /** INDEX PAGE CSS **/
+#index-navimg {
+background-image:url(https://images.unsplash.com/photo-1592652426549-6b44dce89711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8&w=1000&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: gray;
+height: 50vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#title1 {
+    font-weight: bold;
+    text-shadow: 1px 5px 5px black;
+    font-size: 8vw;
+    text-align: center;
+}
+#title2 {
+    font-size: 3vw;
+    text-shadow: 2px 5px 5px black;
+    text-align: center;
+}
+#title3 {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#index-p {
+    font-size: 1.3vw;
+    padding: 1.3vw;
+}
+#index-h1 {
+    font-weight: bold;
+    font-size: 1.9vw;
+    padding: 1.9vw;
+}
+#index-h2 {
+    font-size: 1.25vw;
+}
+.index-welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 1.25vw;
+}   
+.index-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.index-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+}
+.index-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(85, 201, 255);
+    text-shadow: 2px 2px 5px black;
+    padding: 1.9vw;
+}
+.index-nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:1.9vw;
+    width:100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.index-cc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(16,24,26,.5);
+    padding: 1vw;
+}
+
+            /** RESCUE CENTER CSS **/
+#rc-navimg {
+    background-image:url(images/cat1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 20vw;
+}
+.rc-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgba(85, 201, 255, 0.473);
+    align-items: center;
+    color: white;
+    text-shadow: 1px 5px 5px black;
+}
+#saved {
+    font-size: 2.5vw;
+    padding: 2vw;
+    font-weight: bold;
+}
+.rc-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5vw;
+}
+.rc-p {
+    font-size: 1.3vw;
+    padding: .5vw;
+}
+.rc-h1 {
+    font-weight: bold;
+    font-size: 2vw;
+}
+            /** INDOORS.HTML CSS **/
+.education-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: rgb(46, 119, 153) ; 
+    padding: 4vw;
+}
+.indoor-row {
+    display: flex;
+    flex-direction: row;
+}
+.indoor-t {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.indoor-info {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+#indoor-navimg {
+    background-image:url(images/indoors.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+.clip-img {
+    height: 20vw;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+            /** MEDICAL.HTML CSS **/
+#medical-navimg {
+    background-image:url(images/medical.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#fiv-img {
+    background-image:url(images/fiv2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#litter-img {
+    background-image:url(https://www.villageveterinaryclinic.com/sites/default/files/cat-litter-box-issues.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#cat-doc {
+    background-image: url(https://www.stvitalveterinaryhospital.com/wp-content/uploads/sites/76/2019/01/cat_vaccinations2-1800x550.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 30vw;
+}
+#pee{
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#med-p {
+    font-size: 1.3vw;
+    padding: .5vw;
+    text-align: left;
+    margin-left: 13vw;
+}
+#virus {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#fiv {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+#joys {
+  background-image: url(https://kittentoob.com/wp-content/uploads/2018/04/Snowshoe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  height: 35vw;
+}
+#kitten {
+  background-image: url(https://siameseofday.com/wp-content/uploads/2019/11/How-to-Care-for-Siamese-Kittens-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  height: 30vw;
+}
+#integrating {
+  background-image: url(https://i.ytimg.com/vi/emZqJiiKZJU/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  height: 45vw;
+}
+            /** BOOTSTRAP MODIFICATIONS **/
+.col {
+    padding: 1vw;
+}
+.btn-primary {
+    border-color:rgba(46, 119, 153, 0.123) ;
+    color: rgba(255, 255, 255, 0.856);
+    background-color:rgba(46, 119, 153, 0.377) ;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: white;
+    background-color: rgb(85, 201, 255);
+    border-color: rgb(85, 201, 255);
+}
+.accordion {
+    margin: 4vw;
+}
+.accordion-button {
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(46, 119, 153) ;
+    height: 4vw;
+}
+.accordion-body {
+    background-color: rgba(16,24,26,255);
+    height: 15vw;
+    font-size: 1.5vw;
+}
+.carousel-indicators {
+}
+            /**  GENERAL PAGE LAYOUT CSS   **/
+body
+{
+    background: rgba(16,24,26,255);
+    color: white;
+    border-color:rgb(85, 201, 255) ;
+}
+a:link {
+    color: rgb(85, 201, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+a {
+    color: rgb(85, 201, 255);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+/** contact page css **/
+
+.so-calif-sr-link{
+    text-align: center;
+    width: 50vw;
+  }
+  
+  .siamese-rescue-other-link{
+    text-align: center;
+    width: 50vw;
+  }
+  
+  
+  .contact-center{
+    text-align: center;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  .center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .left{
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .contact-address{
+    width: 15vw;
+    text-align: center;
+  }
+  
+  #contact-backgroundimage{
+    background-image: url("images/contact-cat.jpg");
+    width: 98.9vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .center-links{
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-style: groove;
+    height: 60vh;
+    padding-top: 10vw;
+  }
+  
+  .contact-header{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    text-shadow: 1px 5px 5px black;
+  }
+  
+  #form-backgroundimage{
+    background-image: url("images/black-siamese-sheets.jpg");
+    width: 98.9vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 189%;
+    width: 10vw;
+    text-align: center;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .form {
+      display: inline-block;
+      width: 50vw;
+      padding-top: 2vw;
+  }
+  
+  .contact-header2{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 1px 5px 5px black;
+    width: 50vw;
+    padding-top: 15vw;
+  }
+  
+  #thankyou-backgroundimage{
+    background-image: url("images/grass-siamese.jpg");
+    width: 98.9vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .thank-you{
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-style: groove;
+    height: 60vh;
+    padding-top: 10vw;
+  }
+  
+  .thank-you-message{
+    font-size: 2.5vw;
+    text-shadow: 2px 5px 5px black;
+    text-align: center;
+  }
+  
+  #non-affiliated-backgroundimage{
+    background-image: url("images/grass-siamese.jpg");
+    width: 98.9vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .petfinder-link{
+    text-align: center;
+    width: 50vw;
+  }
+  
+  .rescuesiamese-link{
+    text-align: center;
+    width: 50vw;
+    padding-top: 2vw;
+  }
+  
